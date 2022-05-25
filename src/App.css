@@ -1,0 +1,514 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    border-top: 1px solid #FFFFFF;
+    background: #323232;
+    height: 98vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.token {
+    box-sizing: border-box;
+    width: 395px;
+    height: 688px;
+
+    border: 7px solid #FFFF00;
+    border-radius: 50px;
+    margin-right: 50px
+}
+
+.token-balance {
+    text-align: start;
+    margin-left: 60px;
+}
+
+.token-amount-value {
+    display: inline-flex;
+    align-items: center;
+}
+
+.portfolio {
+    box-sizing: border-box;
+
+    width: 769px;
+    height: 689px;
+
+    border: 7px solid #FFFF00;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.item-amount-duration {
+    width: 210px;
+}
+
+.item-remaining {
+    width: 85px;
+}
+
+.item-apy {
+    width: 40px;
+}
+
+.item-reward {
+    width: 125px;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+
+.text-30 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF
+}
+
+.text-24 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.text-20 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.text-16 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.text-14 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.text-18 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+input {
+    width: 180px;
+    height: 30px;
+    background: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    text-align: end;
+    padding-right: 10px;
+
+}
+
+.btn {
+    background: linear-gradient(180deg, #00850D 0%, #001402 100%);
+    border-radius: 15px;
+}
+
+.btn.btn-sm {
+    width: 129px;
+    height: 43px;
+    left: 181px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.btn.btn-lg {
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.btn.btn-md {
+    width: 150px;
+    height: 43px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.btn.btn-xl {
+
+    width: 267px;
+    height: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.btn:disabled {
+    background: linear-gradient(180deg, #B8B8B8 0%, #AEB1AF 100%);
+    border-radius: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.App-footer {
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    left: 0px;
+    bottom: 0px;
+    background: #292929;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background: #292929;
+    position: absolute;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    float: left;
+    height: 82px;
+
+    display: flex;
+    align-items: center;
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+li:hover {
+    border-bottom: 6px solid #00FF00;
+}
+
+li a {
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1220px) and (min-width: 769px) {
+
+    .container {
+        border-top: 1px solid #FFFFFF;
+        background: #323232;
+        height: 180vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .token {
+        box-sizing: border-box;
+        width: 395px;
+        height: 688px;
+
+        border: 7px solid #FFFF00;
+        border-radius: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        text-decoration: none;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+
+    }
+
+    li {
+        float: left;
+        height: 82px;
+
+        display: flex;
+        align-items: center;
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        border-top: 1px solid #FFFFFF;
+        background: #323232;
+        height: 250vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .token {
+        box-sizing: border-box;
+        width: 395px;
+        height: 688px;
+
+        border: 7px solid #FFFF00;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        text-decoration: none;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    li {
+        float: left;
+        height: 82px;
+
+        display: flex;
+        align-items: center;
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .portfolio {
+        box-sizing: border-box;
+
+        width: 395px;
+        height: 150vh;
+
+        border: 7px solid #FFFF00;
+        border-radius: 50px;
+        padding: 20px;
+    }
+
+    .portfolio-item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        border-bottom: 1px solid #FFFFFF;
+        padding-bottom: 20px;
+        padding-left: 50px;
+
+    }
+
+    .item-amount-duration {
+        width: 210px;
+    }
+
+    .item-remaining {
+        margin-top: 30px;
+        width: 85px;
+    }
+
+    .item-apy {
+        margin-top: 30px;
+        width: 40px;
+    }
+
+    .item-reward {
+        margin-top: 30px;
+        width: 125px;
+    }
+
+    .item-reward-submit {
+        margin-top: 30px;
+        align-items: center;
+    }
+
+}
